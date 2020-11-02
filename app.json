@@ -3,7 +3,6 @@
     "name": "Plus one",
     "slug": "plus-one",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "android": {
       "package": "com.wezalab.play",
       "permissions": [],
