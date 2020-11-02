@@ -24,7 +24,7 @@ class Toolbar extends PureComponent {
             <Row style={styles.toolbarContainer}>
               <Row style={styles.backContainer}>
                 <Ionicons name="ios-arrow-back" size={24} color="white" />
-                <Text style={styles.titleBackText}>Back</Text>
+                <Text style={styles.titleBackText}>Retour</Text>
               </Row>
               <View style={styles.menuIconContainer}>
                 <Feather name="share" size={24} color="white" />
@@ -42,7 +42,7 @@ class Toolbar extends PureComponent {
         <View>
           <Row style={styles.toolbarContainer}>
             <View style={styles.titleContainer}>
-              <Text style={styles.titleText}>My Checks</Text>
+              <Text style={styles.titleText}>NAISSANCES</Text>
             </View>
             <View style={styles.menuIconContainer}>
               <Ionicons name="md-menu" size={24} color="#008dff" />

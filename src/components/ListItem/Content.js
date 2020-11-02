@@ -11,16 +11,16 @@ class Content extends PureComponent {
     return (
       <Row style={styles.container}>
         <View style={styles.cellContainer}>
-          <Text style={styles.titleText}>Amount</Text>
+          <Text style={styles.titleText}>Total enfants</Text>
           <Text style={styles.amountText}>{amount}</Text>
         </View>
         <View style={styles.cellContainer}>
-          <Text style={styles.titleText}>Date</Text>
+          <Text style={styles.titleText}>Date mise a jour</Text>
           <Text>{date.format('LL')}</Text>
         </View>
         <View style={styles.cellContainer}>
-          <Text style={styles.titleText}>Status</Text>
-          <Text>{isReceived ? 'Received' : 'Not received'}</Text>
+          <Text style={styles.titleText}>Nbr enregiste</Text>
+          <Text>{isReceived == true? '30 enregistres' : '50 en attentes'}</Text>
         </View>
       </Row>
     );

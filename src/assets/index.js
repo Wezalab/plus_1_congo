@@ -1,7 +1,8 @@
 export default {
-  Hermes: require('./1.png'),
-  'Philipp Plein': require('./2.png'),
-  'L`Ocitane': require('./3.jpeg'),
-  Kenzo: require('./4.jpeg'),
-  'Ray Ban': require('./1.png'),
+  'HPNK NORD KIVU': require('./7.png'),
+  'DOCS RDC': require('./7.png'),
+  'CH Belle vue': require('./7.png'),
+  'Heal Africa': require('./7.png'),
+  'HGR Charite Maternelle': require('./7.png'),
+  'DOCS KYESHERO': require('./7.png'),
 };
